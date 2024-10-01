@@ -1,0 +1,35 @@
+.ant-section__ant067_gallery {
+    position: relative;
+}
+
+.ant-section__ant067_gallery .container-fluid {
+    padding: 0;
+}
+
+.ant067_gallery-nuture-img-item {
+    position: relative;
+    transition: 1.2s;
+}
+
+.ant067_gallery-overay-nutre {
+    position: absolute;
+    top: 0;
+    background: #01407396;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1.3s;
+}
+
+.ant067_gallery-overay-nutre:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ant067_gallery-overay-nutre a i {
+    font-size: 55px;
+    color: #fff;
+    position: relative;
+    left: 42%;
+    top: 35%;
+}
